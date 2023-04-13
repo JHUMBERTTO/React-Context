@@ -1,4 +1,4 @@
-// Context tiene que ver con el manejo de estados globales en react
+// Context tiene que ver con el song manejo de estados globales en react
 // Eso quiere decir que nosotros podemos compartir las misma informacion entre diferentes niveles de componentes
 
 import { createContext, useState, useEffect, useContext } from 'react'

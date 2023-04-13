@@ -1,4 +1,5 @@
 import React from 'react'
+import './songdetails.css'
 
 const SongDetails = () => {
   return (

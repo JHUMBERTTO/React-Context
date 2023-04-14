@@ -4,7 +4,7 @@ import { useSongContext } from '@/context/SongContext'
 const SongList = () => {
   const context = useSongContext()
   return (
-    <div>
+    <div className='container'>
       {
         context.loading
           ? <h1>Cargando...</h1>

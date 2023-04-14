@@ -16,6 +16,7 @@ function SongProvider (props) {
   const [list, setList] = useState([])// Lista de canciones
   const [loading, setLoading] = useState(true)// Ya se cargo la info (Loader)
   const [selectedSong, setSelectedSong] = useState({})
+  const [search, setSearch] = useState('')
 
   // simulo llamada a la API de la lista canciones
 
@@ -30,7 +31,9 @@ function SongProvider (props) {
     list,
     loading,
     selectedSong,
-    setSelectedSong
+    setSelectedSong,
+    search,
+    setSearch
   }
 
   return (

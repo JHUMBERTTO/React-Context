@@ -4,12 +4,27 @@
     
 }
 
+@media(min-width: 830px){
+    .containerDerecho{
+        width: 400px;
+        height: 400px;
+        position: fixed;
+        margin-top: 200px;
+    }
+}
 
-.containerDerecho{
-    width: 400px;
-    height: 400px;
-    position: fixed;
-    margin-top: 200px;
+@media(max-width: 840px){
+    .containerDerecho{
+        width: 140px;
+        height: 140px;
+        position: fixed;
+        margin-top: 200px;
+        font-size: 10px;
+    }
+    .imagen{
+        width: 140px;
+        height: 140px;
+    }
 }
 
 .containerSong{
